@@ -1,0 +1,77 @@
+.btn{
+	color:white;
+	border-radius:5px;
+	font-size:18px;
+	display:inline-block;
+	margin-bottom:.2rem;
+
+	@include pet-policy-link;
+	
+	
+	
+	&-Pet-Policy{
+		
+		background-color:$lightGreen;
+		opacity:.5;
+		padding:.75rem;
+		
+		
+		
+	}
+	&-Pet-Policy:hover{
+		color:$lightGreen;
+		opacity:1;
+		color:white;
+
+	
+	}
+	&-leasing-info{
+		
+		background-color:$lightGreen;
+		opacity:.5;
+		padding:.75rem;
+		margin-left:.3rem;
+		
+		
+		
+			
+	}
+	
+	&-leasing-info:hover{
+		color:$lightGreen;
+		opacity:1;
+		color:white;
+		
+	}
+
+
+
+&-footer{
+	background-color:$lightGray;
+	border:3px solid #FFFFFF;
+	color:#FFFFFF;
+}
+&-footer:hover{
+	color:$lightGray;
+	background-color:#FFFFFF;
+}
+
+ &-footer-facebook{
+
+	 background-color:$lightGray;
+	 color:#FFFFFF;
+	 border:3px solid #FFFFFF;
+	 margin:0;
+	 padding:20px;
+	border-radius:50%;
+		font-size:1.25rem;	
+	 
+	
+	
+	 
+ }
+ &-footer-facebook:hover{
+	 color:$lightGray;
+	 background-color:#FFFFFF;;
+ }
+}

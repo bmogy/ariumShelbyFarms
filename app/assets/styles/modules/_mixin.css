@@ -1,0 +1,116 @@
+@mixin contact-link{
+	@media (min-width:414px){
+
+	display:inline-block;
+	
+	padding:10px 16px;		
+	text-align:center;
+margin:0;
+			
+	}
+}
+@mixin position-links{
+
+	@media (min-width:414px){
+left:0;
+bottom:0;
+		text-align:center;
+			transform:translateY(-160%);
+		width:100%;
+
+		
+			
+	}
+}
+/*main display picture ends */ 
+/* main paragraph begins*/
+
+@mixin titleLarge{
+	@media (min-width:1200px){
+		font-size:2.8rem;
+	}
+}
+@mixin pet-policy-link{
+	@media (min-width:414px){
+	display:inline-block;
+	
+	
+			
+	}
+}
+
+/*header begins */
+@mixin headerAtLarge{
+	@media (min-width:1272px){
+		display:block;
+	}
+}
+@mixin header-block-1-atLarge{
+	@media (min-width:800px){
+		width:14%;
+	}
+}
+@mixin header-block-2-atMedium {
+	@media(min-width:800px){
+		display:block; 
+		width:86%;
+		float:right;
+		
+	}
+}
+@mixin header-block-2-atLarge {
+	@media(min-width:1272px){
+	float:left;
+	width:60%;
+		
+	}
+}
+/*header ends */
+
+/*neighborhood begins */ 
+
+@mixin neighborhood-block{
+	@media (min-width:655px){
+		width:28%;
+		padding-left:15px;
+	padding-right:15px;
+	
+	}
+}
+@mixin neighborhood-block-1{
+	@media (min-width:655px){
+		margin-left:50px;
+	
+	}
+}
+@mixin neighborhood-h3-info{
+	@media (min-width:655px){
+		
+		
+font-size:2.5rem;
+	}
+}
+@mixin neighborhood-p-info{
+	@media (min-width:655px){
+		
+		
+font-size:1.5rem;
+	}
+}
+/*neighborhood ends */ 
+
+
+
+/*footer begins*/
+@mixin footer-height{
+	@media (min-width:800px){
+		height:150px;
+	}
+}
+@mixin footer-block{
+	@media (min-width:800px){
+			width:33.33%;
+	}
+}
+/*footer ends*/ 
+ 

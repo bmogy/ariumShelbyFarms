@@ -1,0 +1,49 @@
+.row {
+box-sizing:border-box;
+		padding-bottom:50px;
+		
+&::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+
+&-neighborhood-block-1{
+	box-sizing:border-box;
+	float:left;
+	width:100%; 
+margin-top:50px;
+	padding:0 20px;
+	@include neighborhood-block-1;
+@include neighborhood-block; 
+}
+&-neighborhood-block-1:hover {
+	background-color:$lighterGreen;
+}
+&-neighborhood-block-2{
+	box-sizing:border-box;
+	float:left;
+	width:100%; 
+	margin-top:50px;
+		padding:0 20px;
+	@include neighborhood-block;
+}
+&-neighborhood-block-2:hover {
+	background-color:$lighterGreen;
+}
+&-neighborhood-block-3{
+	box-sizing:border-box;
+	float:left; 
+	width:100%; 
+	margin-top:50px;
+	padding:0 20px;
+	@include neighborhood-block;
+}
+&-neighborhood-block-3:hover {
+	background-color:$lighterGreen;
+}
+
+
+}
+

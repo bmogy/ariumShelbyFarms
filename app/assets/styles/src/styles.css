@@ -1,0 +1,336 @@
+@import url(../../../node_modules/normalize.css/normalize.css);
+/*main display picture ends */
+/* main paragraph begins*/
+/*header begins */
+/*header ends */
+/*neighborhood begins */
+/*neighborhood ends */
+/*footer begins*/
+/*footer ends*/
+body {
+  color: #474f58;
+  box-sizing: border-box;
+  font-family: "Montserrat", "Helvetica Neue";
+  margin: 0;
+  padding: 0; }
+
+img {
+  width: 100%; }
+
+.row {
+  box-sizing: border-box;
+  padding-bottom: 50px; }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table; }
+  .row-neighborhood-block-1 {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px; }
+    @media (min-width: 655px) {
+      .row-neighborhood-block-1 {
+        margin-left: 50px; } }
+    @media (min-width: 655px) {
+      .row-neighborhood-block-1 {
+        width: 28%;
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .row-neighborhood-block-1:hover {
+    background-color: #18BC9C; }
+  .row-neighborhood-block-2 {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px; }
+    @media (min-width: 655px) {
+      .row-neighborhood-block-2 {
+        width: 28%;
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .row-neighborhood-block-2:hover {
+    background-color: #18BC9C; }
+  .row-neighborhood-block-3 {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px; }
+    @media (min-width: 655px) {
+      .row-neighborhood-block-3 {
+        width: 28%;
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .row-neighborhood-block-3:hover {
+    background-color: #18BC9C; }
+
+.spacing {
+  margin-bottom: 3rem; }
+  .spacing-title {
+    margin-top: 3.5rem; }
+  .spacing-subtitle {
+    margin-top: -1rem; }
+  .spacing-about-farms-links {
+    margin-top: 3rem; }
+
+.btn {
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: .2rem; }
+  @media (min-width: 414px) {
+    .btn {
+      display: inline-block; } }
+  .btn-Pet-Policy {
+    background-color: #128f76;
+    opacity: .5;
+    padding: .75rem; }
+  .btn-Pet-Policy:hover {
+    color: #128f76;
+    opacity: 1;
+    color: white; }
+  .btn-leasing-info {
+    background-color: #128f76;
+    opacity: .5;
+    padding: .75rem;
+    margin-left: .3rem; }
+  .btn-leasing-info:hover {
+    color: #128f76;
+    opacity: 1;
+    color: white; }
+  .btn-footer {
+    background-color: #AEB3B8;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF; }
+  .btn-footer:hover {
+    color: #AEB3B8;
+    background-color: #FFFFFF; }
+  .btn-footer-facebook {
+    background-color: #AEB3B8;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    margin: 0;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 1.25rem; }
+  .btn-footer-facebook:hover {
+    color: #AEB3B8;
+    background-color: #FFFFFF; }
+
+.main-display {
+  position: relative; }
+  .main-display__position-links {
+    position: absolute;
+    bottom: 10%;
+    left: 33%;
+    width: auto; }
+    @media (min-width: 414px) {
+      .main-display__position-links {
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        transform: translateY(-160%);
+        width: 100%; } }
+  .main-display__contact-link {
+    background-color: #2C3E50;
+    display: block;
+    opacity: .8;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 5px 8px;
+    margin-bottom: 10px; }
+    @media (min-width: 414px) {
+      .main-display__contact-link {
+        display: inline-block;
+        padding: 10px 16px;
+        text-align: center;
+        margin: 0; } }
+  .main-display__links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold; }
+  .main-display__img {
+    max-height: 597px; }
+
+.about-farms {
+  color: black;
+  width: 100%;
+  text-align: center; }
+  .about-farms-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 3rem; }
+    @media (min-width: 1200px) {
+      .about-farms-title {
+        font-size: 2.8rem; } }
+  .about-farms-subtitle {
+    font-size: 1.8rem;
+    font-weight: bold; }
+    @media (min-width: 1200px) {
+      .about-farms-subtitle {
+        font-size: 2.8rem; } }
+  .about-farms-p-details {
+    max-width: 1100px;
+    line-height: 1.75rem;
+    margin-right: auto;
+    margin-left: auto; }
+
+.neighborhood {
+  background-image: url("../../img/darkfloor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2.5px 2.5px 2.5px black; }
+
+.neighborhood h1 {
+  text-align: center;
+  margin-top: 5px;
+  color: #B8DAD3;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-left: 2rem; }
+  @media (min-width: 655px) {
+    .neighborhood h1 {
+      font-size: 2.5rem; } }
+
+.neighborhood h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 50px; }
+  @media (min-width: 655px) {
+    .neighborhood h3 {
+      font-size: 1.5rem; } }
+
+.ready-to-lease {
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+  text-align: center; }
+
+.ready-to-lease h1 {
+  font-size: 5rem;
+  font-weight: 100; }
+
+.footer {
+  background-color: #AEB3B8;
+  height: 250px;
+  margin-top: -80px;
+  text-align: center;
+  color: white; }
+  .footer::after {
+    content: "";
+    clear: both;
+    display: table; }
+  @media (min-width: 800px) {
+    .footer {
+      height: 150px; } }
+  .footer-block-1 {
+    float: left;
+    width: 100%; }
+    @media (min-width: 800px) {
+      .footer-block-1 {
+        width: 33.33%; } }
+  .footer-block-2 {
+    float: left;
+    width: 100%; }
+    @media (min-width: 800px) {
+      .footer-block-2 {
+        width: 33.33%; } }
+  .footer-block-3 {
+    float: left;
+    width: 100%; }
+    @media (min-width: 800px) {
+      .footer-block-3 {
+        width: 33.33%; } }
+
+.footer h3 {
+  font-size: 1.5rem; }
+
+.footer p {
+  font-size: 1.25rem;
+  line-height: 5px; }
+
+.header {
+  text-align: center; }
+  .header-block-1 {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black; }
+    @media (min-width: 800px) {
+      .header-block-1 {
+        width: 14%; } }
+  .header-title {
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #163A67;
+    margin-bottom: 0; }
+  .header-subtitle {
+    color: #254671;
+    margin-top: 0;
+    font-size: .90rem; }
+  .header-block-2 {
+    float: left;
+    width: 60%;
+    display: none; }
+    @media (min-width: 800px) {
+      .header-block-2 {
+        display: block;
+        width: 86%;
+        float: right; } }
+    @media (min-width: 1272px) {
+      .header-block-2 {
+        float: left;
+        width: 60%; } }
+  .header-block-3 {
+    display: none;
+    float: right;
+    width: 16%;
+    background-color: #2C3E50;
+    color: white; }
+    @media (min-width: 1272px) {
+      .header-block-3 {
+        display: block; } }
+  .header-apply-option {
+    display: inline-block;
+    border-right: 1px solid white;
+    font-size: 1.25rem;
+    font-weight: 100;
+    padding-right: 5px; }
+  .header-apply-option a {
+    color: white;
+    text-decoration: none; }
+  .header-resident-option {
+    display: inline-block;
+    font-size: 1.15rem;
+    padding-left: 5px; }
+  .header-resident-option a {
+    color: white;
+    text-decoration: none; }
+  .header-apply-resident-border {
+    border-bottom: 2px solid white;
+    padding: 0 10px; }
+  .header-number {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 10px 10px; }
+
+.navBar {
+  transform: translateY(47px);
+  float: right; }
+  .navBar ul {
+    padding: 0;
+    margin: 0; }
+  .navBar li {
+    float: left;
+    list-style: none;
+    margin-right: 20px; }
+  .navBar li a {
+    text-decoration: none;
+    color: #18BC9C; }

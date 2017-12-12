@@ -1,0 +1,44 @@
+.footer{
+	background-color:$lightGray;
+	&::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+height:250px;
+@include footer-height;
+margin-top:-80px;
+text-align:center;
+color:white;
+	&-block-1{
+	float:left;
+	width:100%;
+
+	@include footer-block;
+
+}
+&-block-2{
+	float:left;
+	width:100%; 
+	@include footer-block;
+	
+
+}
+&-block-3{
+	float:left;
+	width:100%;
+	
+@include footer-block;	
+	
+}
+}
+.footer h3{
+	font-size:1.5rem;
+}
+.footer p{
+	font-size:1.25rem;
+	line-height:5px;
+}
+.footer p.facebook-logo {
+
+}

@@ -1,0 +1,30 @@
+.neighborhood{
+
+	background-image:url("../../img/darkfloor.jpg");
+	background-repeat:no-repeat;
+	background-size:cover; 
+	background-position:center;
+
+
+color:white;	
+text-shadow:2.5px 2.5px 2.5px black;
+}
+
+.neighborhood h1{
+	text-align:center;
+	
+	margin-top:5px;
+	color:$shadedWhite;
+font-size:2rem;
+font-weight:100;
+@include neighborhood-h3-info; 
+margin-left:2rem; 
+}
+.neighborhood h3{
+	font-size:1rem;
+	text-align:center;
+margin-top:5px;
+margin-left:50px;
+@include neighborhood-p-info;
+
+}
